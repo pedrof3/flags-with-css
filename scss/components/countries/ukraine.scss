@@ -1,0 +1,11 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s115;
+@include flag.flag-uk;
+@include flag-patterns.pattern1;
+
+.pattern1.-uk {
+  background-color: #0057b7;
+}

@@ -1,0 +1,48 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-ptn3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.pattern3.-top {
+  width: 100%;
+}
+
+.pattern3.-center {
+  width: 100%;
+}
+
+.pattern3.-bottom {
+  width: 100%;
+}
+
+.pattern3.-top {
+  height: 50%;
+  background-color: #FFCD00;
+}
+
+.pattern3.-center {
+  height: 25%;
+  background-color: #003087;
+}
+
+.pattern3.-bottom {
+  height: 25%;
+  background-color: #c8102e;
+}
+
+/*# sourceMappingURL=colombia.css.map */

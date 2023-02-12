@@ -1,0 +1,17 @@
+@use 'title.scss';
+
+@mixin section {
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  @include title.title;
+}

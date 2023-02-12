@@ -1,0 +1,29 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jp.-circle {
+  height: 60%;
+  width: 39.999%;
+  border-radius: 50%;
+  background-color: #BC002D;
+}
+
+/*# sourceMappingURL=japan.css.map */

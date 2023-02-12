@@ -1,0 +1,71 @@
+@use "../frame.scss";
+@use "../flag.scss";
+
+@include frame.frame-s115;
+@include flag.flag-gr;
+
+.gr.-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 55.555%;
+}
+.gr.-topleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 37.037%;
+  height: 100%;
+}
+.gr.-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.gr.-inverter {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.gr.-square {
+  width: 40%;
+  height: 80%;
+
+  background-color: #001489;
+}
+
+.gr.-topright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 62.964%;
+  height: 100%;
+}
+
+.gr.-top.-line {
+  width: 100%;
+  height: 20%;
+
+  background-color: #001489;
+}
+
+.gr.-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 100%;
+  height: 44.445%;
+}
+
+.gr.-bottom.-line {
+  width: 100%;
+  height: 25%;
+  margin-top: 7.375%;
+
+  background-color: #001489;
+}

@@ -1,0 +1,14 @@
+@use 'navigation.scss';
+
+@mixin header {
+  .header {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+  }
+
+  @include navigation.navigation-header;
+}

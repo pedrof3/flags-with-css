@@ -1,0 +1,19 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s1132;
+@include flag.flag-ptn6;
+@include flag-patterns.pattern6;
+
+.flag.-ptn6 {
+    background-color: #FFF;
+  }
+
+.pattern6.-left {
+  background-color: #bc002d;
+}
+
+.pattern6.-right {
+  background-color: #bc002d;
+}

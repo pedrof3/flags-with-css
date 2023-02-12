@@ -1,0 +1,29 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-uk {
+  background-color: #ffdd00;
+}
+
+.pattern1 {
+  height: 50%;
+  width: 100%;
+}
+
+.pattern1.-uk {
+  background-color: #0057b7;
+}
+
+/*# sourceMappingURL=ukraine.css.map */

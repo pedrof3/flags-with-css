@@ -1,0 +1,23 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s115;
+@include flag.flag-ptn5;
+@include flag-patterns.pattern5;
+
+.flag.-ptn5 {
+    background-color: #ABCAE9;
+}
+
+.pattern5.-border {
+  height: 25%;
+
+  background-color: #fff;
+}
+
+.pattern5.-middle {
+  height: 66.666%;
+
+  background-color: #000;
+}

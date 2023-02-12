@@ -1,0 +1,45 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-ptn5 {
+  display: flex;
+  align-items: center;
+}
+
+.pattern5.-border {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.pattern5.-middle {
+  width: 100%;
+}
+
+.flag.-ptn5 {
+  background-color: #ABCAE9;
+}
+
+.pattern5.-border {
+  height: 25%;
+  background-color: #fff;
+}
+
+.pattern5.-middle {
+  height: 66.666%;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=botswana.css.map */

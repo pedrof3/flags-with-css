@@ -1,0 +1,48 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-ptn2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.pattern2.-left {
+  height: 100%;
+  width: 33.34%;
+}
+
+.pattern2.-center {
+  height: 100%;
+  width: 33.34%;
+}
+
+.pattern2.-right {
+  height: 100%;
+  width: 33.34%;
+}
+
+.pattern2.-left {
+  background-color: #1B7339;
+}
+
+.pattern2.-center {
+  background-color: #FFF;
+}
+
+.pattern2.-right {
+  background-color: #1B7339;
+}
+
+/*# sourceMappingURL=nigeria.css.map */

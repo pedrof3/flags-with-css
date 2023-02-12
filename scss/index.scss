@@ -1,0 +1,10 @@
+@use 'components/header.scss';
+@use 'components/section.scss';
+@use 'components/footer.scss';
+@use 'components/frame.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@include header.header;
+@include section.section;
+@include footer.footer;

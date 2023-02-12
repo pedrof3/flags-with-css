@@ -1,0 +1,13 @@
+@use '../frame.scss';
+@use '../flag.scss';
+
+@include frame.frame-s115;
+@include flag.flag-center;
+
+.jp.-circle {
+    height: 60%;
+    width: 39.999%;
+    border-radius: 50%;
+
+    background-color: #BC002D;
+}

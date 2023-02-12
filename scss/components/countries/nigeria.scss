@@ -1,0 +1,17 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s115;
+@include flag.flag-ptn2;
+@include flag-patterns.pattern2;
+
+.pattern2.-left {
+    background-color: #1B7339;
+}
+.pattern2.-center {
+    background-color: #FFF;
+}
+.pattern2.-right {
+    background-color: #1B7339;
+}

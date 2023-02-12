@@ -1,0 +1,36 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s11 {
+  height: 360px;
+  width: 360px;
+}
+
+.flag.-ch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #da291c;
+}
+
+.ch.-vertical {
+  width: 20%;
+  height: 20%;
+  background-color: #fff;
+}
+
+.ch.-horizontal {
+  width: 60%;
+  height: 20%;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=switzerland.css.map */

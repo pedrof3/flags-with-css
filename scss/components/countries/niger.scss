@@ -1,0 +1,36 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+@use "../level.scss";
+
+@include frame.frame-s1125;
+@include flag.flag-ptn3;
+@include flag-patterns.pattern3;
+@include level.level;
+
+.pattern3.-top {
+  height: 33.333%;
+  
+  background-color: #e05206;
+}
+.pattern3.-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33.333%;
+
+  background-color: #fff;
+}
+.pattern3.-bottom {
+  height: 33.333%;
+
+  background-color: #0db02b;
+}
+
+.ne.-circle {
+  width: 25%;
+  height: 93.75%;
+  border-radius: 50%;
+
+  background-color: #e05206;
+}

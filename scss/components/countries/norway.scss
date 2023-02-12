@@ -1,0 +1,23 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s1137;
+@include flag.flag-ptn4;
+@include flag-patterns.pattern4;
+
+.flag.-ptn4 {
+  background-color: #00205b;
+}
+
+.pattern4.-left {
+  background-color: #fff;
+}
+
+.pattern4.-right {
+  background-color: #fff;
+}
+
+.pattern4.-inside {
+  background-color: #ba0c2f;
+}

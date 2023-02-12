@@ -1,0 +1,19 @@
+@use '../frame.scss';
+@use '../flag.scss';
+
+@include frame.frame-s11;
+@include flag.flag-ch;
+
+.ch.-vertical {
+    width: 20%;
+    height: 20%;
+  
+    background-color: #fff;
+  }
+  
+  .ch.-horizontal {
+    width: 60%;
+    height: 20%;
+  
+    background-color: #fff;
+  }

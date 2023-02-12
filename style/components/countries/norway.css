@@ -1,0 +1,76 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s1137 {
+  height: 262.77px;
+  width: 360px;
+}
+
+.flag.-ptn4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pattern4.-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 43.75%;
+}
+
+.pattern4.-inverter {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.pattern4.-lower {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 43.75%;
+}
+
+.pattern4.-left {
+  width: 31.818%;
+  padding-bottom: 5.397%;
+  padding-right: 5.397%;
+}
+
+.pattern4.-right {
+  width: 59.09%;
+  padding-bottom: 5.397%;
+  padding-left: 5.397%;
+}
+
+.pattern4.-inside {
+  width: 100%;
+  height: 100%;
+}
+
+.flag.-ptn4 {
+  background-color: #00205b;
+}
+
+.pattern4.-left {
+  background-color: #fff;
+}
+
+.pattern4.-right {
+  background-color: #fff;
+}
+
+.pattern4.-inside {
+  background-color: #ba0c2f;
+}
+
+/*# sourceMappingURL=norway.css.map */

@@ -1,0 +1,48 @@
+.frame {
+  display: flex;
+
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+@mixin frame-s11 {
+  .frame.-s11 {
+    height: 360px;
+    width: 360px;
+  }
+}
+
+@mixin frame-s1125 {
+  .frame.-s1125 {
+    height: 288px;
+    width: 360px;
+  }
+}
+
+@mixin frame-s1132 {
+  .frame.-s1132 {
+    height: 272.72px;
+    width: 360px;
+  }
+}
+
+@mixin frame-s1137 {
+  .frame.-s1137 {
+    height: 262.77px;
+    width: 360px;
+  }
+}
+
+@mixin frame-s115 {
+  .frame.-s115 {
+    height: 241px;
+    width: 360px;
+  }
+}
+
+@mixin frame-s12 {
+  .frame.-s12 {
+    height: 180px;
+    width: 360px;
+  }
+}
