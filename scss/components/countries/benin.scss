@@ -1,0 +1,19 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s115;
+@include flag.flag-ptn7;
+@include flag-patterns.pattern7;
+
+.flag.-ptn7 {
+  background-color: #008751;
+}
+
+.pattern7.-top {
+  background-color: #fcd116;
+}
+
+.pattern7.-bottom {
+  background-color: #e8112d;
+}

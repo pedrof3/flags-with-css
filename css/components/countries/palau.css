@@ -1,0 +1,33 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s116 {
+  height: 225px;
+  width: 360px;
+}
+
+.flag.-simple {
+  display: flex;
+  align-items: center;
+}
+
+.flag.-simple {
+  background-color: #0085CA;
+}
+
+.pw.-circle {
+  margin-left: 21.875%;
+  height: 60%;
+  width: 37.5%;
+  border-radius: 50%;
+  background-color: #FFD100;
+}
+
+/*# sourceMappingURL=palau.css.map */

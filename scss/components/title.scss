@@ -1,6 +1,21 @@
 @mixin title {
   .title {
-    margin: 20px 0px;
-    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 38px;
+
+    color: #0046dd;
+  }
+
+  .title.-subtitle {
+    flex-direction: row;
+    font-size: 16px;
+
+    img {
+      width: 35%;
+      margin-left: 10px;
+    }
   }
 }

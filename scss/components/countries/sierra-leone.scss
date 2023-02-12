@@ -1,0 +1,20 @@
+@use "../frame.scss";
+@use "../flag.scss";
+@use "../flag-patterns.scss";
+
+@include frame.frame-s115;
+@include flag.flag-ptn3;
+@include flag-patterns.pattern3;
+
+.pattern3.-top {
+    height: 33.333%;
+  background-color: #1EB53A;
+}
+.pattern3.-center {
+    height: 33.333%;
+  background-color: #fff;
+}
+.pattern3.-bottom {
+    height: 33.333%;
+  background-color: #0072C6;
+}

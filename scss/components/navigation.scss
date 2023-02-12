@@ -1,13 +1,15 @@
 .navigation {
   display: flex;
+  color: #0046dd;
 }
 
 @mixin navigation-header {
   .navigation.-header {
     justify-content: space-between;
     width: 40%;
-
     font-size: 20px;
+
+    margin: 10px 0px;
   }
 }
 

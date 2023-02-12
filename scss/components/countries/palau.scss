@@ -1,0 +1,18 @@
+@use '../frame.scss';
+@use '../flag.scss';
+
+@include frame.frame-s116;
+@include flag.flag-simple;
+
+.flag.-simple {
+    background-color: #0085CA;
+}
+
+.pw.-circle {
+    margin-left: 21.875%;
+    height: 60%;
+    width: 37.5%;
+    border-radius: 50%;
+
+    background-color: #FFD100;
+}

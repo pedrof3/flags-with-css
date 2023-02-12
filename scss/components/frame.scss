@@ -40,6 +40,13 @@
   }
 }
 
+@mixin frame-s116 {
+  .frame.-s116 {
+    height: 225px;
+    width: 360px;
+  }
+}
+
 @mixin frame-s12 {
   .frame.-s12 {
     height: 180px;

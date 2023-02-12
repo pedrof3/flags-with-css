@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.navigation {
+  display: flex;
+  color: #0046dd;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00ad74;
+}
+
+.navigation.-header {
+  justify-content: space-between;
+  width: 40%;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  font-size: 38px;
+  color: #0046dd;
+}
+
+.title.-subtitle {
+  flex-direction: row;
+  font-size: 16px;
+}
+.title.-subtitle img {
+  width: 35%;
+  margin-left: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+.list li a {
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00ad74;
+}
+
+.navigation.-footer {
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=index.css.map */

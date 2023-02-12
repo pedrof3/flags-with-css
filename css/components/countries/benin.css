@@ -1,0 +1,39 @@
+.frame {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.flag {
+  width: inherit;
+}
+
+.frame.-s115 {
+  height: 241px;
+  width: 360px;
+}
+
+.flag.-ptn7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pattern7 {
+  width: 60%;
+  height: 50%;
+}
+
+.flag.-ptn7 {
+  background-color: #008751;
+}
+
+.pattern7.-top {
+  background-color: #fcd116;
+}
+
+.pattern7.-bottom {
+  background-color: #e8112d;
+}
+
+/*# sourceMappingURL=benin.css.map */
