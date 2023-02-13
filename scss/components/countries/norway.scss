@@ -2,8 +2,8 @@
 @use "../flag.scss";
 @use "../flag-patterns.scss";
 
-@include frame.frame-s1137;
-@include flag.flag-ptn4;
+@include frame.frame;
+@include flag.flag;
 @include flag-patterns.pattern4;
 
 .flag.-ptn4 {

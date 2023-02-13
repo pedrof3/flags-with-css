@@ -1,8 +1,8 @@
 @use '../frame.scss';
 @use '../flag.scss';
 
-@include frame.frame-s115;
-@include flag.flag-center;
+@include frame.frame;
+@include flag.flag;
 
 .jp.-circle {
     height: 60%;

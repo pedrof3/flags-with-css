@@ -2,8 +2,8 @@
 @use "../flag.scss";
 @use "../flag-patterns.scss";
 
-@include frame.frame-s12;
-@include flag.flag-ae;
+@include frame.frame;
+@include flag.flag;
 @include flag-patterns.pattern1;
 
 .ae {

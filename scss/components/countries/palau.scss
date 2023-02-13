@@ -1,8 +1,8 @@
 @use '../frame.scss';
 @use '../flag.scss';
 
-@include frame.frame-s116;
-@include flag.flag-simple;
+@include frame.frame;
+@include flag.flag;
 
 .flag.-simple {
     background-color: #0085CA;

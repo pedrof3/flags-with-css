@@ -8,12 +8,117 @@
   width: inherit;
 }
 
+.frame.-s11 {
+  height: 360px;
+  width: 360px;
+}
+
+.frame.-s1125 {
+  height: 288px;
+  width: 360px;
+}
+
+.frame.-s1132 {
+  height: 272.72px;
+  width: 360px;
+}
+
+.frame.-s1137 {
+  height: 262.77px;
+  width: 360px;
+}
+
+.frame.-s1142 {
+  height: 253.52px;
+  width: 360px;
+}
+
 .frame.-s115 {
   height: 241px;
   width: 360px;
 }
 
+.frame.-s116 {
+  height: 225px;
+  width: 360px;
+}
+
+.frame.-s12 {
+  height: 180px;
+  width: 360px;
+}
+
+.flag.-ch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #da291c;
+}
+
+.flag.-ptn1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flag.-ae {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #ef3340;
+}
+
+.flag.-ptn2 {
+  display: flex;
+  flex-direction: row;
+}
+
 .flag.-ptn3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flag.-ptn4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flag.-ptn5 {
+  display: flex;
+  align-items: center;
+}
+
+.flag.-ptn6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flag.-ptn7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flag.-to {
+  display: flex;
+  align-items: flex-start;
+  background-color: #c10000;
+}
+
+.flag.-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag.-simple {
+  display: flex;
+  align-items: center;
+}
+
+.flag.-gr {
   display: flex;
   flex-direction: column;
 }

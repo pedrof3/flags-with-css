@@ -2,10 +2,14 @@
 @use "../flag.scss";
 @use "../flag-patterns.scss";
 
-@include frame.frame-s115;
-@include flag.flag-uk;
+@include frame.frame;
+@include flag.flag;
 @include flag-patterns.pattern1;
 
-.pattern1.-uk {
+.pattern1.-top {
   background-color: #0057b7;
+}
+
+.pattern1.-bottom {
+  background-color: #FFDD00;
 }

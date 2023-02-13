@@ -1,0 +1,40 @@
+@use '../frame.scss';
+@use '../flag.scss';
+
+@include frame.frame;
+@include flag.flag;
+
+.flag.-center {
+    background-color: #009739;
+}
+
+.br.-polygon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 12%, 92% 50%, 50% 88%, 8% 50%);
+
+    background-color: #FEDD00;
+}
+
+.br.-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 50%;
+    border-radius: 50%;
+
+    background-color: #012169;
+}
+
+.br.-line {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 45%, 13% 37%, 31% 30%, 49% 28%, 68% 30%, 87% 37%, 100% 45%, 100% 55%, 87% 47%, 68% 40%, 50% 38%, 31% 40%, 13% 47%, 0 55%);
+
+    background-color: #fff;
+}

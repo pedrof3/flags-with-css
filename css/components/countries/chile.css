@@ -123,58 +123,33 @@
   flex-direction: column;
 }
 
-.pattern4.-block {
+.pattern1 {
+  height: 50%;
+  width: 100%;
+}
+
+.pattern1.-top {
+  background-color: #fff;
+}
+
+.pattern1.-bottom {
+  background-color: #da291c;
+}
+
+.ch.-box {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 43.75%;
-}
-
-.pattern4.-inverter {
-  -moz-transform: scaleY(-1);
-  -o-transform: scaleY(-1);
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
-}
-
-.pattern4.-lower {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 43.75%;
-}
-
-.pattern4.-left {
-  width: 31.818%;
-  padding-bottom: 5.397%;
-  padding-right: 5.397%;
-}
-
-.pattern4.-right {
-  width: 59.09%;
-  padding-bottom: 5.397%;
-  padding-left: 5.397%;
-}
-
-.pattern4.-inside {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  width: 33.333%;
+  background-color: #0032a0;
 }
 
-.flag.-ptn4 {
-  background-color: #00205b;
+.ch.-star {
+  height: 50%;
+  width: 50%;
+  clip-path: polygon(50% 2.45%, 61.8% 38.77%, 100% 38.77%, 69.1% 61.23%, 80.9% 97.55%, 50% 75.1%, 19.1% 97.55%, 30.9% 61.23%, 0% 38.77%, 38.2% 38.77%);
+  background-color: #ffffff;
 }
 
-.pattern4.-left {
-  background-color: #fff;
-}
-
-.pattern4.-right {
-  background-color: #fff;
-}
-
-.pattern4.-inside {
-  background-color: #ba0c2f;
-}
-
-/*# sourceMappingURL=norway.css.map */
+/*# sourceMappingURL=chile.css.map */

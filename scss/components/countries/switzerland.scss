@@ -1,8 +1,8 @@
 @use '../frame.scss';
 @use '../flag.scss';
 
-@include frame.frame-s11;
-@include flag.flag-ch;
+@include frame.frame;
+@include flag.flag;
 
 .ch.-vertical {
     width: 20%;

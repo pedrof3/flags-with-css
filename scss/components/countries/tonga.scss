@@ -1,8 +1,8 @@
 @use '../frame.scss';
 @use '../flag.scss';
 
-@include frame.frame-s12;
-@include flag.flag-to;
+@include frame.frame;
+@include flag.flag;
 
 .to.-box {
     display: flex;
